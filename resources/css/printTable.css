@@ -1,0 +1,31 @@
+/* printTable.css */
+
+/* Apply compact styles for PDF output */
+.pdf-table * {
+    font-size: 10pt !important; /* Smaller font */
+    padding: 4px 6px !important; /* Tighten padding */
+    border: 1px solid #444 !important; /* Visible borders */
+}
+
+.pdf-table th,
+.pdf-table td {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.pdf-table img {
+    width: 24px !important; /* Smaller profile image */
+    height: 24px !important;
+    border-radius: 50% !important;
+}
+
+.pdf-table {
+    width: 100% !important;
+    border-collapse: collapse !important; /* Remove gaps between cells */
+}
+
+.pdf-table tr.bg-yellow-600 {
+    background-color: #ffd700 !important; /* Highlight rank 1 */
+    color: #000 !important;
+    font-weight: bold !important;
+}
