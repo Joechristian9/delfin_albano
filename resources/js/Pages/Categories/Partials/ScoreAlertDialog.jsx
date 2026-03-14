@@ -77,9 +77,9 @@ const ScoreAlertDialog = ({
                                                     "/default-avatar.png"
                                                 }
                                                 alt={`${c.first_name} ${c.last_name}`}
-                                                className="w-6 h-6 rounded-full object-cover"
+                                                className="w-8 h-8 rounded-full object-cover flex-shrink-0"
                                             />
-                                            <span>
+                                            <span className="truncate">
                                                 {c.first_name} {c.last_name}
                                             </span>
                                         </div>
